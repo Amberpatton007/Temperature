@@ -33,7 +33,7 @@ function getDriverLicense(){
     let answer = document.getElementById("answer");
 
     if(age>=18){
-        answer.innerHTML="Congratulations! You can get your driving license"
+    
     }else{
         answer.innerHTML="Sorry, you are too young to get a driving license"
     }
